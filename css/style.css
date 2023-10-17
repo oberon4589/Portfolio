@@ -190,3 +190,52 @@
   font-size: 45px;
   margin-right: 10px;
 }
+
+/* Mobile */
+
+@media (max-width: 450px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #bio-Container {
+    min-height: auto;
+    border-right: none;
+    border-bottom: 5px solid var(--bio-border-color);
+  }
+
+  #bioContainer h2 {
+    display: none;
+  }
+
+  #bioContainer p {
+    max-width: 60%;
+    margin: 10px auto;
+  }
+
+  #aboutContainer {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #aboutContainer .description {
+    margin: 10px auto;
+    max-width: 100%;
+    line-height: 26px;
+  }
+
+  #btnProjects {
+    margin: 20px auto;
+  }
+
+  .skillsBox {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .skillsBox i {
+    font-size: 60px;
+  }
+}
