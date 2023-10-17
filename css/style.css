@@ -109,3 +109,84 @@
   margin-right: 5px;
   max-width: 20px;
 }
+
+/* About */
+
+#name {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+#title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.description {
+  max-width: 75%;
+  margin-bottom: 10px;
+}
+
+#btnProjects {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 25px 0;
+  padding: 12px 10px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+}
+
+#btnProjects ion-icon,
+#btnProjects span {
+  flex: 1 1 0;
+}
+
+#btnProjects ion-icon {
+  font-size: 20px;
+  max-width: 20px;
+}
+
+#btnProjects:hover {
+  background-color: transparent;
+  color: var(--main-color);
+}
+
+#skillSectionTitle {
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.skillsBox {
+  flex: 1 1 33%;
+  max-width: 33%;
+  margin-bottom: 35px;
+}
+
+.skillsTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-left: 5px solid var(--main-color);
+}
+
+.skillsBox i {
+  font-size: 45px;
+  margin-right: 10px;
+}
